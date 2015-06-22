@@ -37,7 +37,7 @@ void loop()
   
   if( (NULL != CurrentProgramNumber) )//&& !PowerOffFlag )
   {    
-    programConfigLedBlink();    
+    //programConfigLedBlink();    
     #if DEBUG
     //LOG_VALUE("CurrentProgramNumber is ", CurrentProgramNumber);    
     #endif

@@ -136,7 +136,7 @@ void Grove_Joint::powerOff()
   digitalWrite(PWR_HOLD, HIGH);	 
   pinMode(KEY, OUTPUT);    
   digitalWrite(KEY, LOW);    
-  delay(20);
+  //delay(20);
   digitalWrite(KEY, HIGH);
   pinMode(KEY, INPUT);      
 

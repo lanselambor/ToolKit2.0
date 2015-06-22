@@ -26,7 +26,7 @@
 //#include "moistureRgbLed.h"
 //#include "loudnessRgbLed.h"
 
-#define DEBUG          1
+#define DEBUG          0
 #define LOG(message)   Serial.print("[ ");       \
                        Serial.print(millis());   \
                        Serial.print(" ms] ");    \
