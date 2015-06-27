@@ -127,12 +127,12 @@ void carRun(int direction)
     motor_CH2.drive(Throttle);
   }
   else if(CarMotion.status == CarMotion.left){
-    motor_CH1.drive(0);
+    motor_CH1.drive(-Throttle);
     motor_CH2.drive(Throttle);
   }
   else if(CarMotion.status == CarMotion.right){
     motor_CH1.drive(Throttle);
-    motor_CH2.drive(0);
+    motor_CH2.drive(-Throttle);
   }
   else if(CarMotion.status == CarMotion.stop){
     motor_CH1.drive(0);
