@@ -31,7 +31,7 @@ void loop()
 {      
     
   /* ------------- 1.Battery management ----------- */
-  //batteryManager();
+  batteryManager();
   /* ------------- 2.Program configuration ----------- */  
   CurrentProgramNumber = getCurrentProgramNumber();
   

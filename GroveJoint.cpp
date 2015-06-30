@@ -245,17 +245,17 @@ float Grove_Joint::BatteryManager(void)
     if(millis()-clock >= 100)
     {
       clock = millis();
-      ledFlip ^= 1;
+      ledFlip ^= 1;   //Low battery led
     }
-    batteryLedOn(ledFlip);       
+    //batteryLedOn(ledFlip);       
   }
   else
   {
-    batteryLedOn(OFF);
+    //batteryLedOn(OFF);
   }
   if(BatteryLevel <= DangerPowerValue)
   {
-    batteryLedOn(ON);
+    //batteryLedOn(ON);
     powerOff();    
   }
   return BatteryLevel;
