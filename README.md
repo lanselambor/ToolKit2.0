@@ -3,7 +3,7 @@
 ###Upload scketch
 * Unzip the download file to Aruino libraries' path, turn to Arduino IDE and click File-->Sketchbook-->libraries-->toolkit2.0-->toolkit<br>
 
-###Choosing program
+### Choosing program
 * This kit include 11 demos, to play with one of them just needed steps below. <br>
 <pre>
 1). Power on.<br>
@@ -13,3 +13,12 @@
 5). Long pressing the button until the green led turns down. <br>
 6). Demo you choose running now. <br>
 </pre>
+
+### Program number
+NO.1 airPiano <br>
+NO.2 airDustBox <br>
+NO.3
+NO.4
+NO.4
+NO.4
+NO.4
